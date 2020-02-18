@@ -7,5 +7,5 @@ jobs:
     name: Build and test
     steps:
       - uses: actions/checkout@v1
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@4e8ff5adddafdfd8c933664d2c0f72dcfaacc0bc
       - run: npm t
