@@ -1,7 +1,8 @@
 {
-  "name": "frontend",
+  "name": "frontend-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example folder with NPM dependencies",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
