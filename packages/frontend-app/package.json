@@ -1,0 +1,16 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "description": "Example folder with NPM dependencies",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "debug": "4.2.0"
+  }
+}

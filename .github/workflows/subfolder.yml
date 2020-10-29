@@ -1,0 +1,15 @@
+name: subfolder
+on: [push]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    name: Build and test
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1.4.5
+        with:
+          working-directory: packages/frontend-app
+      - name: Run tests
+        run: npm test
+        working-directory: packages/frontend-app
