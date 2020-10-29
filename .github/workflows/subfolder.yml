@@ -7,7 +7,7 @@ jobs:
     name: Build and test
     steps:
       - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@088cdba
         with:
           working-directory: packages/frontend-app
       - name: Run tests
